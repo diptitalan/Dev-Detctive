@@ -164,17 +164,18 @@ function init() {
     lightModeProperties();
   }
   else if(value == "true") {
-    console.log("truer k andar");
+    console.log("true");
     darkModeProperties();
   }
   else if(value == "false") {
-    console.log("false k andar");
+    console.log("false");
     lightModeProperties();
   }
 
 
-  //by default, pranaygupta ki info show krre h UI pr
-  getUserData(url + "Abhishek-kumar90");
+  
+  getUserData(url + "diptitalan");
+    
 }
 
 init();
